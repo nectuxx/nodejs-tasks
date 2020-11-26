@@ -34,7 +34,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:6001/v1/cartList?userId=5fbf02fb9e20db551723cd10",
+					"raw": "http://127.0.0.1:6001/v1/cartList?userId=5fbf25189e20db551723cd11",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -50,7 +50,7 @@
 					"query": [
 						{
 							"key": "userId",
-							"value": "5fbf02fb9e20db551723cd10"
+							"value": "5fbf25189e20db551723cd11"
 						}
 					]
 				}
@@ -64,7 +64,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"productId\": \"5fbefc179e20db551723cd0b\",\n    \"qty\": 1,\n    \"userId\": \"5fbf25189e20db551723cd11\"\n}",
+					"raw": "{\n    \"productId\": \"5fbefb779e20db551723cd0a\",\n    \"qty\": 1,\n    \"userId\": \"5fbf25189e20db551723cd11\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
