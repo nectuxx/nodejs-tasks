@@ -1,0 +1,8 @@
+# Standardized DevOps Prettier Formatting
+
+trailingComma: 'es5'
+tabWidth: 4
+semi: false
+singleQuote: true
+endOfLine: 'lf'
+printWidth: 120
