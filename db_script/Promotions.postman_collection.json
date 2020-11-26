@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "5001c93a-65c4-4940-a1c6-0509e76255dd",
+		"name": "Promotions",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Product list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:6001/v1/productList",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "6001",
+					"path": [
+						"v1",
+						"productList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cart list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:6001/v1/cartList?userId=5fbf02fb9e20db551723cd10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "6001",
+					"path": [
+						"v1",
+						"cartList"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "5fbf02fb9e20db551723cd10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"productId\": \"5fbefc179e20db551723cd0b\",\n    \"qty\": 1,\n    \"userId\": \"5fbf25189e20db551723cd11\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:6001/v1/addToCart",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "6001",
+					"path": [
+						"v1",
+						"addToCart"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": "A: \"5fbefb509e20db551723cd09\",B: \"5fbefb779e20db551723cd0a\",C: \"5fbefc179e20db551723cd0b\",D: \"5fbefc959e20db551723cd0c\"\nuser1: \"5fbf02fb9e20db551723cd10\",user2: \"5fbf25189e20db551723cd11\",user3: \"5fbf25319e20db551723cd12\",user4: \"5fbf25589e20db551723cd13\""
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
