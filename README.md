@@ -1,2 +1,2 @@
-# digitamatix-nodejs
+# Cybrilla-nodejs
 nodejs part 
